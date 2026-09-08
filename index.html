@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aunt Shop brings together beauty and everyday essentials for your routine.">
+  <title>Aunt Shop | Beauty & Everyday Essentials</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Aunt Shop home"><span class="brand-mark">A</span><span>Aunt Shop</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span class="sr-only">Toggle navigation</span><span></span><span></span><span></span></button>
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <a href="#home">Home</a><a href="#products">Products</a><a href="#about">About</a><a class="nav-contact" href="#contact">Contact <span aria-hidden="true">&#8599;</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy"><p class="eyebrow">Curated with care &middot; Since 2018</p><h1>Beauty for your <em>everyday</em> ritual.</h1><p class="hero-text">Thoughtful essentials that make ordinary moments feel a little more special.</p><a class="button button-dark" href="#products">View products <span aria-hidden="true">&#8595;</span></a></div>
+      <div class="hero-art" aria-label="A selection of beauty products" role="img"><div class="sun-shape"></div><div class="hero-bottle bottle-one"></div><div class="hero-bottle bottle-two"></div><div class="hero-bottle bottle-three"></div><span class="hero-note">small joys<br>for every day</span></div>
+    </section>
+
+    <section class="products-section" id="products">
+      <div class="section-heading"><div><p class="eyebrow">The good shelf</p><h2>Featured products</h2></div><p class="section-intro">Simple, useful, and made to be reached for often.</p></div>
+      <div class="product-grid">
+        <article class="product-card"><div class="product-image image-one"><span class="product-tag">Best seller</span><img src="https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=900&q=85" alt="Amber skincare bottle beside green leaves" loading="lazy"></div><div class="product-info"><div><p class="product-category">Skincare</p><h3>Glow Ritual Oil</h3></div><strong>R299</strong></div><button class="view-button" type="button" data-product="Glow Ritual Oil">View product <span aria-hidden="true">&#8599;</span></button></article>
+        <article class="product-card"><div class="product-image image-two"><img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=900&q=85" alt="Natural cream jar on a soft beige background" loading="lazy"></div><div class="product-info"><div><p class="product-category">Body care</p><h3>Cloud Body Cream</h3></div><strong>R199</strong></div><button class="view-button" type="button" data-product="Cloud Body Cream">View product <span aria-hidden="true">&#8599;</span></button></article>
+        <article class="product-card"><div class="product-image image-three"><span class="product-tag">New</span><img src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=900&q=85" alt="Minimal skincare bottles on a bright background" loading="lazy"></div><div class="product-info"><div><p class="product-category">Everyday care</p><h3>Sunday Hand Wash</h3></div><strong>R349</strong></div><button class="view-button" type="button" data-product="Sunday Hand Wash">View product <span aria-hidden="true">&#8599;</span></button></article>
+      </div>
+    </section>
+
+    <section class="about-section" id="about"><p class="eyebrow">A little about us</p><h2>Good things, chosen<br><em>for real life.</em></h2><p>We look for the useful details: gentle ingredients, beautiful textures, and products that earn their place in your home.</p></section>
+  </main>
+
+  <footer class="site-footer" id="contact"><div><a class="brand" href="#home"><span class="brand-mark">A</span><span>Aunt Shop</span></a><p>Beauty & everyday essentials.</p></div><a class="whatsapp-link" href="https://wa.me/27000000000" target="_blank" rel="noreferrer">WhatsApp us <span aria-hidden="true">&#8599;</span></a><p class="copyright">&copy; 2026 Aunt Shop</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
