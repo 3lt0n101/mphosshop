@@ -27,17 +27,46 @@
 
     <section class="products-section" id="products">
       <div class="section-heading"><div><p class="eyebrow">The good shelf</p><h2>Featured products</h2></div><p class="section-intro">Simple, useful, and made to be reached for often.</p></div>
-      <div class="product-grid">
-        <article class="product-card"><div class="product-image image-one"><span class="product-tag">Best seller</span><img src="https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=900&q=85" alt="Amber skincare bottle beside green leaves" loading="lazy"></div><div class="product-info"><div><p class="product-category">Skincare</p><h3>Glow Ritual Oil</h3></div><strong>R299</strong></div><button class="view-button" type="button" data-product="Glow Ritual Oil">View product <span aria-hidden="true">&#8599;</span></button></article>
-        <article class="product-card"><div class="product-image image-two"><img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=900&q=85" alt="Natural cream jar on a soft beige background" loading="lazy"></div><div class="product-info"><div><p class="product-category">Body care</p><h3>Cloud Body Cream</h3></div><strong>R199</strong></div><button class="view-button" type="button" data-product="Cloud Body Cream">View product <span aria-hidden="true">&#8599;</span></button></article>
-        <article class="product-card"><div class="product-image image-three"><span class="product-tag">New</span><img src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=900&q=85" alt="Minimal skincare bottles on a bright background" loading="lazy"></div><div class="product-info"><div><p class="product-category">Everyday care</p><h3>Sunday Hand Wash</h3></div><strong>R349</strong></div><button class="view-button" type="button" data-product="Sunday Hand Wash">View product <span aria-hidden="true">&#8599;</span></button></article>
+      <div class="products-layout">
+        <div class="product-grid" aria-live="polite"></div>
+
+        <aside class="cart-panel" aria-live="polite">
+          <div class="cart-header">
+            <p class="eyebrow">Your bag</p>
+            <h3>Selected items</h3>
+          </div>
+          <ul class="cart-list">
+            <li class="cart-empty">No products selected yet.</li>
+          </ul>
+          <div class="cart-summary">
+            <div><span>Items</span><strong id="cart-count">0</strong></div>
+            <div><span>Total</span><strong id="cart-total">R0</strong></div>
+          </div>
+
+          <div class="checkout-form">
+            <label>
+              Name
+              <input id="customer-name" type="text" placeholder="Your name" autocomplete="name">
+            </label>
+            <label>
+              Phone
+              <input id="customer-phone" type="tel" placeholder="Your WhatsApp number" autocomplete="tel">
+            </label>
+            <label>
+              Delivery address
+              <textarea id="customer-address" rows="3" placeholder="Street, suburb, city"></textarea>
+            </label>
+          </div>
+
+          <button class="send-order-button" id="send-order" type="button">Send order on WhatsApp</button>
+        </aside>
       </div>
     </section>
 
     <section class="about-section" id="about"><p class="eyebrow">A little about us</p><h2>Good things, chosen<br><em>for real life.</em></h2><p>We look for the useful details: gentle ingredients, beautiful textures, and products that earn their place in your home.</p></section>
   </main>
 
-  <footer class="site-footer" id="contact"><div><a class="brand" href="#home"><span class="brand-mark">A</span><span>Aunt Shop</span></a><p>Beauty & everyday essentials.</p></div><a class="whatsapp-link" href="https://wa.me/27000000000" target="_blank" rel="noreferrer">WhatsApp us <span aria-hidden="true">&#8599;</span></a><p class="copyright">&copy; 2026 Aunt Shop</p></footer>
+  <footer class="site-footer" id="contact"><div><a class="brand" href="#home"><span class="brand-mark">A</span><span>Aunt Shop</span></a><p>Beauty & everyday essentials.</p></div><a class="whatsapp-link" href="https://wa.me/27820000000" target="_blank" rel="noreferrer">WhatsApp us <span aria-hidden="true">&#8599;</span></a><p class="copyright">&copy; 2026 Aunt Shop</p></footer>
   <script src="script.js"></script>
 </body>
 </html>
